@@ -1,0 +1,13 @@
+// programa que te muestra una sucecion de numero positivo, negativo 
+
+#include <stdio.h>
+
+int main() {
+    for (int i = 1, j = 1; i <= 5; i++, j = -j) {
+        printf("%d,%d,", i, i * j);
+    }
+
+    printf("\n");
+
+    return 0;
+}
